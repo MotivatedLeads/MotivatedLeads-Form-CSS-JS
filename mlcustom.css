@@ -14,9 +14,14 @@
 	margin: 0;
 }
 
+
 .form-progress {
     width: 100%;
 }
+
+progress::-webkit-progress-bar {
+    background-color: #0072ce !important;
+ }
 
 .form-progress .form-progress-indicator {
     text-align: center;
