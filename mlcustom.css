@@ -25,10 +25,6 @@
 	margin-bottom: 10px;
 }
 
-#theForm .controls {
-
-}
-
 #theForm .control-group {
 	display: flex;
 	flex-direction: column;
