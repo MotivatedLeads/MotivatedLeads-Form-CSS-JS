@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap');
 #theForm {max-width: 700px;margin: 0 auto;padding: 20px 20px;display: flex;flex-direction: column;align-items: center;min-height: calc(100vh - 40px);justify-content: center;}
 #theForm .controls {margin: 0;}
 #theForm .control-group {display: flex;flex-direction: column;margin: 0;padding: 22px 20px;box-shadow:0 -0.8px 6px -2px rgba(0,0,0,0.2);}
@@ -21,4 +21,52 @@
 	#theForm .form-buttons .controls{flex-wrap: wrap;}
 	#theForm .submit.btn, #theForm .btn {margin: 5px;}
 	#formFrame{min-height: 700px;height: auto !important;}
-}
+} */
+
+/* Custom CSS styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .form-wrapper {
+    margin-top: 20px;
+  }
+  
+  .form-rows {
+    margin-bottom: 20px;
+  }
+  
+  .form-row {
+    margin-bottom: 10px;
+  }
+  
+  .control-label {
+    font-weight: bold;
+  }
+  
+  .controls {
+    margin-top: 5px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
