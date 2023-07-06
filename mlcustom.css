@@ -25,6 +25,7 @@
 .form-progress .active {
     color: white;
     background-color: #0072ce;
+    border-color: #0072ce;
 }
 
 .form-page-wrapper {
@@ -120,7 +121,7 @@
 	min-width: 223px;
 }
 
-#theForm .form-buttons .controls .hover {
+#theForm .form-buttons .controls .submit:hover {
 	background: #1AA34F;
 	color: #fff;
 }
