@@ -18,14 +18,13 @@
     width: 100%;
 }
 
-/* .form-progress .form-progress-indicator {
-
-} */
+.form-progress .form-progress-indicator {
+    text-align: center;
+}
 
 .form-progress .active {
     color: white;
     background-color: #0072ce;
-    text-align: center;
 }
 
 .form-page-wrapper {
@@ -78,11 +77,11 @@
 	margin: 0;
 }
 
-/* #theForm .form-buttons .control-group:last-child {
+#theForm .form-buttons .control-group:last-child {
 	box-shadow: none !important;
 	padding-left: 0;
 	padding-right: 0;
-} */
+}
 
 #theForm .submit.btn,
 #theForm .btn {
