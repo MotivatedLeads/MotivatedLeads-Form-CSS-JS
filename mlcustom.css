@@ -20,6 +20,7 @@
 
 .form-progress .form-progress-indicator {
     text-align: center;
+    font-weight: bold;
 }
 
 .form-progress .active {
