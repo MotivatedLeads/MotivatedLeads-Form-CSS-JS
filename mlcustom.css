@@ -19,7 +19,7 @@
     width: 100%;
 }
 
-progress::-webkit-progress-bar {
+progress::-webkit-progress-value {
     background-color: #0072ce !important;
  }
 
