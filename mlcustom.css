@@ -25,12 +25,20 @@
 	margin-bottom: 10px;
 }
 
+#theForm .controls {
+
+}
+
 #theForm .control-group {
 	display: flex;
 	flex-direction: column;
 	margin: 0;
 	padding: 22px 20px;
 	box-shadow: 0 -0.8px 6px -2px rgba(0, 0, 0, 0.2);
+}
+
+#theForm .control-group .controls {
+    margin-left: 0 !important;
 }
 
 #theForm .controls input,
@@ -50,10 +58,14 @@
 	margin: 3px 12px 0 -10px;
 }
 
+#theForm .form-buttons {
+    width: 100%
+}
+
 #theForm .form-buttons .controls {
 	display: flex;
-	justify-content: center;
-	margin: 0 auto;
+	justify-content: space-between;
+	margin: 0;
 }
 
 #theForm .form-buttons .control-group:last-child {
