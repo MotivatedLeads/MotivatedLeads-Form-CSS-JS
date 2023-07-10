@@ -177,6 +177,7 @@ progress::-webkit-progress-value {
 .header-body-text {
 	font-size: 17px;
     font-style: italic;
+	text-align: center;
 }
 
 
