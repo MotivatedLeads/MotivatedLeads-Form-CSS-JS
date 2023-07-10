@@ -77,7 +77,7 @@ progress::-webkit-progress-value {
 }
 
 #theForm .control-group.error {
-    box-shadow: 0 -1px 8px -1px #b94a48;
+    box-shadow: 0 -1px 4px -1px #b94a48;
 }
 
 #theForm .form-buttons {
