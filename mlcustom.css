@@ -160,6 +160,7 @@ progress::-webkit-progress-value {
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
+	margin-bottom: 0 !important;
 }
 
 .header-image {
@@ -172,6 +173,8 @@ progress::-webkit-progress-value {
 .header-heading-text {
     font-style: italic;
     text-align: center;
+	margin-top: 30px;
+	margin-bottom: 0;
 }
 
 .header-body-text {
