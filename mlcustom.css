@@ -191,8 +191,7 @@ progress::-webkit-progress-value {
 
 	#theForm .submit.btn,
 	#theForm .btn {
-		min-width: 100px;
-		margin: 5px;
+		min-width: 0px;
 	}
 
 	#formFrame {
