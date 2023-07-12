@@ -1,5 +1,10 @@
 console.log("mlcustom.js loaded");
 
+// Add arrows to Previous and Next buttons
+var nextButton = document.querySelector('.next.btn.btn-default');
+var previousButton = document.querySelector('.prev.btn.btn-default');
+var terms = document.querySelector('.terms');
+
 addEventListener("load", function() {
     // Set form progress indicator numbers
     var formProgressIndicators = document.querySelectorAll('.form-progress-indicator');
@@ -8,11 +13,6 @@ addEventListener("load", function() {
     var number = parseInt(formProgressIndicator.className.match(/\d+/)[0]);
     formProgressIndicator.textContent = number;
     });
-
-
-    // Add arrows to Previous and Next buttons
-    var nextButton = document.querySelector('.next.btn.btn-default');
-    var previousButton = document.querySelector('.prev.btn.btn-default');
 
     // Create span elements and assign arrow signs
     var leftArrowSpan = document.createElement('span');
@@ -26,4 +26,17 @@ addEventListener("load", function() {
 
     // Insert the arrowSpan before the button's existing content
     previousButton.insertBefore(leftArrowSpan, previousButton.firstChild);
+
+    // Hide Terms and Conditions
+    terms.style.display = 'none';
+});
+
+nextButton.addEventListener("click", function() { 
+    if (nextButton.style.display === 'none') {
+        terms.style.display = 'flex';
+    }
+});
+
+previousButton.addEventListener("click", function() { 
+    terms.style.display = 'none';
 });
