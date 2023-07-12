@@ -36,7 +36,7 @@ nextButton.addEventListener("click", function() {
         if (nextButton.style.display === 'none') {
             terms.style.display = 'flex';
         }
-    }, 500); 
+    }, 100); 
 });
 
 previousButton.addEventListener("click", function() { 
