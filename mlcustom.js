@@ -31,10 +31,12 @@ addEventListener("load", function() {
     terms.style.display = 'none';
 });
 
-nextButton.addEventListener("click", function() { 
-    if (nextButton.style.display === 'none') {
-        terms.style.display = 'flex';
-    }
+nextButton.addEventListener("click", function() {
+    setTimeout(function() {
+        if (nextButton.style.display === 'none') {
+            terms.style.display = 'flex';
+        }
+    }, 500); 
 });
 
 previousButton.addEventListener("click", function() { 
