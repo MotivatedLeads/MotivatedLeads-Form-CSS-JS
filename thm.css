@@ -20,7 +20,7 @@
 }
 
 progress::-webkit-progress-value {
-    background-color: #0072ce !important;
+    background-color: #104c43 !important;
  }
 
 .form-progress .form-progress-indicator {
@@ -30,8 +30,8 @@ progress::-webkit-progress-value {
 
 .form-progress .active {
     color: white;
-    background-color: #0072ce;
-    border-color: #0072ce;
+    background-color: #104c43;
+    border-color: #104c43;
 }
 
 .form-page-wrapper {
