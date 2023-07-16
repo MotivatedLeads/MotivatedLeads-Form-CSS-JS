@@ -116,13 +116,13 @@ progress::-webkit-progress-value {
 	background: #fff;
 	color: #0072ce;
 	padding: 10px 20px;
-	font-size: 17px;
+	font-size: 16px;
 	height: auto;
 	border-radius: 30px;
 	border: 2px solid #0072ce;
 	margin: 0 4px;
 	font-weight: bold;
-	min-width: 200px;
+	min-width: 150px;
 }
 
 #theForm .submit.btn:hover,
