@@ -38,10 +38,14 @@ progress::-webkit-progress-value {
 	width: 100%;
 }
 
+#theForm .section-name {
+    font-size: 18px;
+}
+
 #theForm .control-label {
 	text-align: left;
 	width: 100%;
-	font-size: 20px;
+	font-size: 16px;
 	margin-bottom: 10px;
 }
 
@@ -49,8 +53,9 @@ progress::-webkit-progress-value {
 	display: flex;
 	flex-direction: column;
 	margin: 0;
-	padding: 22px 20px;
-	box-shadow: 0 -0.8px 6px -2px rgba(0, 0, 0, 0.2);
+	padding: 12px 20px;
+	/* box-shadow: 0 -0.8px 6px -2px rgba(0, 0, 0, 0.2); */
+    background-color: #f8f9fa;
 }
 
 #theForm .control-group .controls {
@@ -92,6 +97,7 @@ progress::-webkit-progress-value {
 
 #theForm .form-buttons .control-group:last-child {
 	box-shadow: none !important;
+    background: none !important;
 	padding-left: 0;
 	padding-right: 0;
 }
@@ -171,6 +177,7 @@ progress::-webkit-progress-value {
 }
 
 .header-heading-text {
+    font-size: 21px;
     font-style: italic;
     text-align: center;
 	margin-top: 30px;
