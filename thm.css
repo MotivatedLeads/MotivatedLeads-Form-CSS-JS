@@ -90,6 +90,10 @@ progress::-webkit-progress-value {
     box-shadow: none;
 }
 
+#theForm .control-group.error input {
+    border: 1px solid #b94a48;
+}
+
 #theForm .form-buttons {
     width: 100%
 }
