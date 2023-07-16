@@ -53,9 +53,13 @@ progress::-webkit-progress-value {
 	display: flex;
 	flex-direction: column;
 	margin: 0;
-	padding: 12px 20px;
+	padding: 15px 20px;
 	/* box-shadow: 0 -0.8px 6px -2px rgba(0, 0, 0, 0.2); */
     background-color: #f8f9fa;
+}
+
+.form-rows .form-row:last-child .control-group {
+    padding-bottom: 15px !important;
 }
 
 #theForm .control-group .controls {
@@ -82,7 +86,8 @@ progress::-webkit-progress-value {
 }
 
 #theForm .control-group.error {
-    box-shadow: 0 -1px 4px -1px #b94a48;
+    /* box-shadow: 0 -1px 4px -1px #b94a48; */
+    box-shadow: none;
 }
 
 #theForm .form-buttons {
