@@ -107,7 +107,7 @@ progress::-webkit-progress-value {
 	border: 2px solid #0072ce;
 	margin: 0 4px;
 	font-weight: bold;
-	min-width: 200px;
+	min-width: 150px;
 }
 
 #theForm .submit.btn:hover,
@@ -130,7 +130,7 @@ progress::-webkit-progress-value {
 	border: 2px solid #1AA34F;
 	margin: 0 4px;
 	font-weight: bold;
-	min-width: 223px;
+	min-width: 150px;
 }
 
 #theForm .form-buttons .controls .submit:hover {
@@ -191,7 +191,7 @@ progress::-webkit-progress-value {
 
 	#theForm .submit.btn,
 	#theForm .btn {
-		min-width: 0px;
+		min-width: 0px !important;
 	}
 
 	#formFrame {
