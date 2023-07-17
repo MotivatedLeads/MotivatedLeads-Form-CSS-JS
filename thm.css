@@ -177,6 +177,7 @@ progress::-webkit-progress-value {
 } */
 
 .well {
+	display: none !important;
 	background-color: transparent;
     border: none;
     border-radius: none;
@@ -184,10 +185,6 @@ progress::-webkit-progress-value {
     -moz-box-shadow: none;
     box-shadow: none;
 	margin-bottom: 0 !important;
-}
-
-.well .form-title {
-	display: none;
 }
 
 .header-image {
