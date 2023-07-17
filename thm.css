@@ -177,6 +177,7 @@ progress::-webkit-progress-value {
 } */
 
 .well {
+	display: none;
 	background-color: transparent;
     border: none;
     border-radius: none;
