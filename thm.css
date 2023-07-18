@@ -62,7 +62,7 @@ progress::-webkit-progress-value {
 	text-align: left;
 	width: 100%;
 	font-family: 'Source Sans 3', sans-serif;
-	font-size: 1rem;
+	font-size: 1.2rem;
 	font-weight: 500;
 	margin-bottom: 10px;
 }
@@ -81,6 +81,11 @@ progress::-webkit-progress-value {
     background-color: transparent;
 }
 
+/* .form-rows {
+	display: flex;
+    flex-wrap: wrap;
+} */
+
 .form-rows .form-row:last-child .control-group {
     padding-bottom: 15px !important;
 }
@@ -95,13 +100,14 @@ progress::-webkit-progress-value {
 	border: 1px solid rgba(230, 230, 230, .8);
     padding: 7px !important;
     border-radius: 5px;
-    min-height: 40px;
+    min-height: 50px;
     box-shadow: none !important;
-    font-size: 15px;
+    font-size: 1.1rem;
     font-weight: 300;
     outline: none !important;
-    padding: 5px 0;
+    padding: .375rem .75rem !important;
     color: black !important;
+	box-shadow: inset 0 1px 3px -2px rgba(29,29,29,.5) !important;
 }
 
 #theForm .controls textarea {
