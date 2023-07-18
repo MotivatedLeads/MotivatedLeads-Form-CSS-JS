@@ -18,8 +18,8 @@ addEventListener("load", function() {
     var leftArrowSpan = document.createElement('span');
     var rightArrowSpan = document.createElement('span');
 
-    leftArrowSpan.innerHTML = '&lt; ';
-    rightArrowSpan.innerHTML = ' &gt;';
+    leftArrowSpan.innerHTML = '&lt;&lt; ';
+    rightArrowSpan.innerHTML = ' &gt;&gt;';
 
     // Append the span element to the button
     nextButton.appendChild(rightArrowSpan);
