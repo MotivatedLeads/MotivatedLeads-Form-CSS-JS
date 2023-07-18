@@ -29,6 +29,19 @@ addEventListener("load", function() {
 
     // Hide Terms and Conditions
     terms.style.display = 'none';
+
+
+    // Find all control-label elements and add red asterisk
+    const labels = document.querySelectorAll('.control-label');
+
+    // Iterate over each label and add the asterisk element
+    labels.forEach(label => {
+        const asterisk = document.createElement('span');
+        asterisk.textContent = '*';
+        asterisk.classList.add('asterisk');
+
+        label.appendChild(asterisk);
+    });
 });
 
 nextButton.addEventListener("click", function() {

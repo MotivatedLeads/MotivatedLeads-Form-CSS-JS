@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Source+Sans+3:wght@500&display=swap');
+
 #theForm {
 	max-width: 700px;
 	margin: 0 auto;
@@ -38,24 +40,45 @@ progress::-webkit-progress-value {
 	width: 100%;
 }
 
+.form-page-wrapper legend {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 0px;
+    font-size: 21px;
+    line-height: 40px;
+    color: #333;
+    border: 0;
+    border-bottom: none;
+}
+
 #theForm .section-name {
-    font-size: 18px;
+    font-size: 1.3px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
 }
 
 #theForm .control-label {
 	text-align: left;
 	width: 100%;
-	font-size: 16px;
+	font-family: 'Source Sans 3', sans-serif;
+	font-size: 1rem;
+	font-weight: 500;
 	margin-bottom: 10px;
+}
+
+.asterisk {
+	color: red;
+	margin-left: 5px;
 }
 
 #theForm .control-group {
 	display: flex;
 	flex-direction: column;
 	margin: 0;
-	padding: 15px 20px;
+	padding: 5px 0px;
 	/* box-shadow: 0 -0.8px 6px -2px rgba(0, 0, 0, 0.2); */
-    background-color: #f8f9fa;
+    background-color: transparent;
 }
 
 .form-rows .form-row:last-child .control-group {
