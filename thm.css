@@ -152,11 +152,11 @@ progress::-webkit-progress-value {
 #theForm .btn {
 	background: #3c1b54;
 	color: #fff;
-	padding: 10px 20px;
-	font-size: 16px;
+	padding: 1.2rem 1rem;
+	font-size: 1.125rem;
 	height: auto;
 	/* border-radius: 30px; */
-	border: 2px solid #3c1b54;
+	/* border: 2px solid #3c1b54; */
 	margin: 0 4px;
 	font-weight: bold;
 	min-width: 150px;
@@ -175,11 +175,11 @@ progress::-webkit-progress-value {
 #theForm .form-buttons .controls .submit {
 	background: #3c1b54;
 	color: #fff;
-	padding: 10px 20px;
-	font-size: 17px;
+	padding: 1.2rem 1rem;
+	font-size: 1.125rem;
 	height: auto;
 	/* border-radius: 30px; */
-	border: 2px solid #3c1b54;
+	/* border: 2px solid #3c1b54; */
 	margin: 0 4px;
 	font-weight: bold;
 	min-width: 150px;
