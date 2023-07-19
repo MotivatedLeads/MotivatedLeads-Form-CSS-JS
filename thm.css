@@ -190,6 +190,10 @@ progress::-webkit-progress-value {
 	color: #fff;
 }
 
+.terms {
+	display: none;
+}
+
 /* #theForm .submit.btn:before {
 	content: "\2713";
 	margin: 0 10px 0 0;
